@@ -16,14 +16,14 @@
 
 ### with Regional Prompter
 #### Samples
-* https://raw.githubusercontent.com/SuperHimoYarouWorld/UseAnimateDiffPromptTravelwithRegionalPrompterSample/main/SampleAnimations/00016-3418874118.webp
-* https://raw.githubusercontent.com/SuperHimoYarouWorld/UseAnimateDiffPromptTravelwithRegionalPrompterSample/main/SampleAnimations/00152-752436473.webp
-* https://raw.githubusercontent.com/SuperHimoYarouWorld/UseAnimateDiffPromptTravelwithRegionalPrompterSample/main/SampleAnimations/00218-1320549600.webp
+* ![Sample01](SampleAnimations/00016-3418874118.webp)
+* ![Sample02](SampleAnimations/00152-752436473.webp)
+* ![Sample03](SampleAnimations/00218-1320549600.webp)
 #### Prompt
 * https://raw.githubusercontent.com/SuperHimoYarouWorld/UseAnimateDiffPromptTravelwithRegionalPrompterSample/main/SampleAnimations/00016-3418874118.txt
 * https://raw.githubusercontent.com/SuperHimoYarouWorld/UseAnimateDiffPromptTravelwithRegionalPrompterSample/main/SampleAnimations/00152-752436473.txt
 * https://raw.githubusercontent.com/SuperHimoYarouWorld/UseAnimateDiffPromptTravelwithRegionalPrompterSample/main/SampleAnimations/00218-1320549600.txt
-#### Regional Prompter Settings
+#### My Regional Prompter Settings
 * Active = True
 * Generation Mode = Attention,Matrix
 * Base Ratio = 0
