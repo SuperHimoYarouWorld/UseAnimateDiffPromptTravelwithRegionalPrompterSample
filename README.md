@@ -1,4 +1,4 @@
-# AnimateDiff PromptTravel with RegionalPrompter Sample (need to enable dynamic prompts)
+# AnimateDiff's Prompt Travel with Regional Prompter Sample (need to enable dynamic prompts)
 
 ## My Testing Environment
 * OS: Linux 6.6.25-1-MANJARO
