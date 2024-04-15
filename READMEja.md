@@ -8,6 +8,7 @@
 知らんがな (´・ω・`)
 
 ## 俺氏のテスト環境
+* 実験期間: 2024/04/11〜2024/04/16
 * OS: Linux 6.6.25-1-MANJARO
 * GPU: NVIDIA GeForce RTX 3060 VRAM 12G
 * CUDA Version: 12.3.107
