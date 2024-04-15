@@ -20,7 +20,7 @@ As of 04/16/2024, it is needed to enable Dynamic Prompts extension ;-)
 * ![Sample01](SampleAnimations/00016-3418874118.webp)
 * ![Sample02](SampleAnimations/00152-752436473.webp)
 * ![Sample03](SampleAnimations/00218-1320549600.webp)
-#### Prompts and AnimateDiff settings
+#### My Prompts and AnimateDiff settings
 * https://raw.githubusercontent.com/SuperHimoYarouWorld/UseAnimateDiffPromptTravelwithRegionalPrompterSample/main/SampleAnimations/00016-3418874118.txt
 * https://raw.githubusercontent.com/SuperHimoYarouWorld/UseAnimateDiffPromptTravelwithRegionalPrompterSample/main/SampleAnimations/00152-752436473.txt
 * https://raw.githubusercontent.com/SuperHimoYarouWorld/UseAnimateDiffPromptTravelwithRegionalPrompterSample/main/SampleAnimations/00218-1320549600.txt
