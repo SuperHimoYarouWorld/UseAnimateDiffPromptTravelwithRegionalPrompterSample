@@ -2,7 +2,7 @@
 * ![Regional Prompter, Different prompts can be specified for different regions](https://github.com/hako-mikan/sd-webui-regional-prompter)
 * ![AnimateDiff for Stable Diffusion WebUI, You can generate GIFs in exactly the same way as generating images after enabling this extension.](https://github.com/continue-revolution/sd-webui-animatediff)
 
-As of 04/16/2024, it is needed to enable Dynamic Prompts extension,may be ;-)
+As of 04/16/2024, it is needed to enable Dynamic Prompts extension, may be ;-)
 
 ## My Testing Environment
 * OS: Linux 6.6.25-1-MANJARO
