@@ -56,7 +56,7 @@
 
 ## どうやるの?
 ### Stable Diffusion Web UI の場合
-下の3つの機能拡張を有効化し、サンプルを参考にいい感じのプロンプトを書く。Stable Diffusion の Check Point や AnimateDiff の MotionModule の組み合わせによって Regional Prompter の効き具合が大きく変化する様だ。ところで厳密な演技となるようプロンプトをチューンするのも楽しいが、シーン毎のプロンプトを短めにして AI の解釈に委ねると面白いかも。
+下の3つの機能拡張を有効化し、サンプルを参考にいい感じのプロンプトを書く。Stable Diffusion の Check Point や AnimateDiff の Motion Module の組み合わせによって Regional Prompter の効き具合が大きく変化する様だ。ところで厳密な演技となるようプロンプトをチューンするのも楽しいが、シーン毎のプロンプトを短めにして AI の解釈に委ねると面白いかも。
 * AnimateDiff extension
 * * https://github.com/continue-revolution/sd-webui-animatediff
 * Dynamic Prompts extension
