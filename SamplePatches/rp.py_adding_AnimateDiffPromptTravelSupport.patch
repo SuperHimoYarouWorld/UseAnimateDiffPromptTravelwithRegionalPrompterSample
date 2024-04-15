@@ -1,0 +1,80 @@
+--- rp.py	2024-04-14 14:37:23.763083348 +0900
++++ rp.py.new	2024-04-14 14:46:58.435413617 +0900
+@@ -682,10 +682,19 @@
+     p.all_hr_negative_prompts = p.all_negative_prompts
+ 
+ def allchanger(p, a, b):
+-    p.prompt = p.prompt.replace(a, b)
++    if isinstance(p.prompt, list):
++        p.prompt = p.prompt[0].replace(a, b)
++#        for i in lange(p.prompt):
++#            p.prompt = p.prompt[i].replace(a, b)
++    else:
++        p.prompt = p.prompt.replace(a, b)
+     for i in lange(p.all_prompts):
+         p.all_prompts[i] = p.all_prompts[i].replace(a, b)
+-    p.negative_prompt = p.negative_prompt.replace(a, b)
++    if isinstance(p.negative_prompt, list):
++        for i in lange(p.negative_prompt):
++            p.negative_prompt = p.negative_prompt[i].replace(a, b)
++    else:
++        p.negative_prompt = p.negative_prompt.replace(a, b)
+     for i in lange(p.all_negative_prompts):
+         p.all_negative_prompts[i] = p.all_negative_prompts[i].replace(a, b)
+ 
+@@ -1097,20 +1106,37 @@
+     if KEYCOMM in p.prompt:
+         self.usecom = True
+     if self.usecom and KEYCOMM not in p.prompt:
+-        p.prompt = p.prompt.replace(KEYBRK,KEYCOMM,1)
++        if isinstance(p.prompt, list):
++            for i in lange(p.prompt):
++                p.prompt = p.prompt[i].replace(KEYBRK,KEYCOMM,1)
++        else:
++            p.prompt = p.prompt.replace(KEYBRK,KEYCOMM,1)
+     
+     if KEYCOMM in p.negative_prompt:
+         self.usencom = True
+     if self.usencom and KEYCOMM not in p.negative_prompt:
+-        p.negative_prompt = p.negative_prompt.replace(KEYBRK,KEYCOMM,1)
++        if isinstance(p.negative_prompt, list):
++            for i in lange(p.negative_prompt):
++                p.negative_prompt = p.negative_prompt[i].replace(KEYBRK,KEYCOMM,1)
++        else:
++            p.negative_prompt = p.negative_prompt.replace(KEYBRK,KEYCOMM,1)
+     
+     if KEYBASE in p.prompt:
+         self.usebase = True
+     if self.usebase and KEYBASE not in p.prompt:
+-        p.prompt = p.prompt.replace(KEYBRK,KEYBASE,1)
++        if isinstance(p.prompt, list):
++            for i in lange(p.prompt):
++                p.prompt = p.prompt[i].replace(KEYBRK,KEYBASE,1)
++        else:
++            p.prompt = p.prompt.replace(KEYBRK,KEYBASE,1)
+         
+-    if KEYPROMPT in p.prompt.upper():
+-        self.mode = "Prompt"
++    if isinstance(p.prompt, list):
++        for i in lange(p.prompt):
++            if KEYPROMPT in p.prompt[i].upper():
++                self.mode = "Prompt"
++    else:
++        if KEYPROMPT in p.prompt.upper():
++            self.mode = "Prompt"
+ 
+ def keyconverter(aratios,mode,usecom,usebase,p):
+     '''convert BREAKS to ADDCOMM/ADDBASE/ADDCOL/ADDROW'''
+@@ -1120,7 +1146,11 @@
+     for change in keychanger:
+         if change == KEYCOMM and KEYCOMM in p.prompt: continue
+         if change == KEYBASE and KEYBASE in p.prompt: continue
+-        p.prompt= p.prompt.replace(KEYBRK,change,1)
++        if isinstance(p.prompt, list):
++            for i in lange(p.prompt):
++                p.prompt = p.prompt[i].replace(KEYBRK,change,1)
++        else:
++            p.prompt = p.prompt.replace(KEYBRK,change,1)
+ 
+ def keyreplacer(self,p):
+     '''

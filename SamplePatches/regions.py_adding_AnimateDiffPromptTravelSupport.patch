@@ -1,0 +1,61 @@
+--- regions.py	2024-04-14 14:36:57.399643102 +0900
++++ regions.py.new	2024-04-14 14:51:55.706618935 +0900
+@@ -352,10 +352,26 @@
+     # In any case, the preferred method will anchor the L2 structure. 
+     # No prompt formatting is performed. Used only for region calculations
+     prompt = p.prompt
+-    if self.optbreak:prompt = prompt.replace(KEYBRK, "")
++    if self.optbreak:
++        if isinstance(prompt, list):
++            prompt = prompt[0].replace(KEYBRK, "")
++#            for i in lange(prompt):
++#                prompt = prompt[i].replace(KEYBRK, "")
++        else:
++            prompt = prompt.replace(KEYBRK, "")
+     if self.debug: print("in matrixdealer",prompt)
+-    if KEYCOMM in prompt: prompt = prompt.split(KEYCOMM,1)[1]
+-    if KEYBASE in prompt: prompt = prompt.split(KEYBASE,1)[1]
++    if KEYCOMM in prompt:
++        if isinstance(prompt, list):
++            for i in lange(prompt):
++                prompt = prompt[i].split(KEYCOMM,1)[1]
++        else:
++            prompt = prompt.split(KEYCOMM,1)[1]
++    if KEYBASE in prompt:
++        if isinstance(prompt, list):
++            for i in lange(prompt):
++                prompt = prompt[i].split(KEYBASE,1)[1]
++        else:
++            prompt = prompt.split(KEYBASE,1)[1]
+ 
+     indflip = ("Ver" in mode)
+     if (KEYCOL in prompt.upper() or KEYROW in prompt.upper()):
+@@ -755,10 +771,25 @@
+ # If there's a base, it will receive its own remainder mask, applied at 100%.
+ def inpaintmaskdealer(self, p, bratios, usebase, polymask):
+     prompt = p.prompt
+-    if self.optbreak:prompt = prompt.replace(KEYBRK, "")
++    if self.optbreak:
++        if isinstance(prompt, list):
++            for i in lange(prompt):
++                prompt = prompt[i].replace(KEYBRK, "")
++        else:
++            prompt = prompt.replace(KEYBRK, "")
+     if self.debug: print("in inpaintmaskdealer",prompt)
+-    if KEYCOMM in prompt: prompt = prompt.split(KEYCOMM,1)[1]
+-    if KEYBASE in prompt: prompt = prompt.split(KEYBASE,1)[1]
++    if KEYCOMM in prompt:
++        if isinstance(prompt, list):
++            for i in lange(prompt):
++                prompt = prompt[i].split(KEYCOMM,1)[1]
++        else:
++            prompt = prompt.split(KEYCOMM,1)[1]
++    if KEYBASE in prompt:
++        if isinstance(prompt, list):
++            for i in lange(prompt):
++                prompt = prompt[i].split(KEYBASE,1)[1]
++        else:
++            prompt = prompt.split(KEYBASE,1)[1]
+     # Prep masks.
+     self.regmasks = []
+     tm = None
