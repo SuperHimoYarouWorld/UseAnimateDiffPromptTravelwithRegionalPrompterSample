@@ -1,4 +1,4 @@
-# AnimateDiff's Prompt Travel with Regional Prompter Sample
+# Samples of using AnimateDiff's Prompt Travel with Regional Prompter
 As of 04/16/2024, it is needed to enable Dynamic Prompts extension ;-)
 
 ## My Testing Environment
