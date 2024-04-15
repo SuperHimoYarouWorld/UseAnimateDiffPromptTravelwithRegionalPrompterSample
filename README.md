@@ -1,5 +1,5 @@
 # AnimateDiff's Prompt Travel with Regional Prompter Sample
-Enabling Dynamic Prompts needed, currently ;-)
+As of 04/16/2024, it is needed to enable Dynamic Prompts extension ;-)
 
 ## My Testing Environment
 * OS: Linux 6.6.25-1-MANJARO
