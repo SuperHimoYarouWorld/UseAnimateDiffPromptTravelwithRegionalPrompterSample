@@ -14,7 +14,7 @@ As of 04/16/2024, it is needed to enable Dynamic Prompts extension, may be ;-)
 * Webui-forge Version: f0.0.17v1.8.0rc-latest-276-g29be1da7 
 * Regional Prompter Version: 50493ec0
 * AnimateDiff(sd-forge-animatediff) Version: b20f7519
-* Dynamic Prompts Version: 
+* Dynamic Prompts Version: 1567e787
 
 ## Animated Samples (24frame,8fps)
 
