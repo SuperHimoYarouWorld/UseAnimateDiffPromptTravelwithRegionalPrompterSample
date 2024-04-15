@@ -1,0 +1,9 @@
+two person,best quality,masterpiece,extremely detailed,1girl,in Sundress,simple background
+0: a girl in Sundress waving hands
+7: the girl in Sundress jumping furiously
+ADDCOL
+two person,best quality,masterpiece,extremely detailed,1boy,in formal suits,simple background
+0: a boy in formal suits drinking a papercup of coffee
+15: the boy in formal suits throwing the papercup away and starting to dance intensely
+Negative prompt: EasyNegativeV2,bad-hands-5,paper,confetti
+Steps: 11, Sampler: Euler A Turbo, CFG scale: 9, Seed: 752436473, Size: 1024x576, Model hash: 151cad8364, Model: silkHentai_v20, VAE hash: f921fb3f29, VAE: clearvae_v23.safetensors, Clip skip: 2, AnimateDiff: "model: mm_sd15_v3.safetensors, video_length: 24, fps: 8, loop_number: 0, closed_loop: R-P, batch_size: 16, stride: 1, overlap: 4, interp: Off, interp_x: 10, mm_hash: a8ca0ead, version: v2.0.2-f", RP Active: True, RP Divide mode: Matrix, RP Matrix submode: Columns, RP Mask submode: Mask, RP Prompt submode: Prompt, RP Calc Mode: Attention, RP Ratios: "1,1", RP Base Ratios: 0, RP Use Base: False, RP Use Common: False, RP Use Ncommon: False, RP Options: [false, "debug2"], RP LoRA Neg Te Ratios: 0, RP LoRA Neg U Ratios: 0, RP threshold: 0.4, RP LoRA Stop Step: 0, RP LoRA Hires Stop Step: 0, RP Flip: False, TI hashes: "EasyNegativeV2: 339cc9210f70, bad-hands-5: aa7651be154c", Version: f0.0.17v1.8.0rc-latest-276-g29be1da7
