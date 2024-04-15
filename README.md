@@ -39,7 +39,7 @@ As of 04/16/2024, it is needed to enable Dynamic Prompts extension, may be ;-)
 * Width = 1024 #for the image size is 1024x576
 * Height = 576 #for the image size is 1024x576
 * flip","and";" = False
-* Overlay Ratio = 0.8
+* Overlay Ratio = 0.8 - 0.9
 * Presets: None
 * LoRA stop step = 0
 * LoRA Hires stop step = 0
