@@ -18,7 +18,7 @@
 * Webui-forge Version: f0.0.17v1.8.0rc-latest-276-g29be1da7 
 * Regional Prompter Version: 50493ec0
 * AnimateDiff(sd-forge-animatediff) Version: b20f7519
-* Dynamic Prompts Version: 
+* Dynamic Prompts Version: 1567e787
 
 ## 生成したアニメのサンプル (24frame,8fps)
 ### Reagional Prompter 有効時
