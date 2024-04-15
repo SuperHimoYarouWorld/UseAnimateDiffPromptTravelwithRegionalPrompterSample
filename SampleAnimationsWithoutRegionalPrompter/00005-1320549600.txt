@@ -1,0 +1,6 @@
+two person,best quality,masterpiece,extremely detailed,1girl on left in Sundress,1boy on right in formal suits,simple background,Milky Way,starry sky,[[[[[meteor shower]]]]]
+0: a girl on left in Sundress waving hands, a boy on right in formal suits drinking a papercup of coffee
+7: the girl on left in Sundress jumping furiously
+15: the boy on right in formal suits throwing the papercup away and starting to dance intensely
+Negative prompt: EasyNegativeV2,bad-hands-5,paper,confetti
+Steps: 11, Sampler: Euler A Turbo, CFG scale: 9, Seed: 1320549600, Size: 1024x576, Model hash: 151cad8364, Model: silkHentai_v20, VAE hash: f921fb3f29, VAE: clearvae_v23.safetensors, Clip skip: 2, AnimateDiff: "model: mm_sd15_v3.safetensors, video_length: 24, fps: 8, loop_number: 0, closed_loop: R-P, batch_size: 16, stride: 1, overlap: 4, interp: Off, interp_x: 10, mm_hash: a8ca0ead, version: v2.0.2-f", Version: f0.0.17v1.8.0rc-latest-276-g29be1da7
