@@ -1,4 +1,7 @@
 # Samples of using AnimateDiff's Prompt Travel with Regional Prompter
+* ![Regional Prompter, Different prompts can be specified for different regions](https://github.com/hako-mikan/sd-webui-regional-prompter)
+* ![AnimateDiff for Stable Diffusion WebUI, You can generate GIFs in exactly the same way as generating images after enabling this extension.](https://github.com/continue-revolution/sd-webui-animatediff)
+
 As of 04/16/2024, it is needed to enable Dynamic Prompts extension,may be ;-)
 
 ## My Testing Environment
