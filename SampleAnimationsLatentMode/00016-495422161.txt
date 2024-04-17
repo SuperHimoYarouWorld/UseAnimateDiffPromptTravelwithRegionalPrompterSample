@@ -1,0 +1,9 @@
+two person,best quality,masterpiece,extremely detailed,1girl,simple background green background,chibi <lora:GBlora:0.6> <lora:thickoutline:0.6>
+0: a cute girl
+7: a cute girl laughing
+ADDCOL
+two person,best quality,masterpiece,extremely detailed,1boy,simple background blue background,chibi <lora:BBlora:0.6> <lora:q-v1:0.6>
+0: a cute boy
+15: a cute boy crying
+Negative prompt: EasyNegativeV2,bad-hands-5
+Steps: 20, Sampler: Euler a, Schedule type: Automatic, CFG scale: 9, Seed: 495422161, Size: 768x512, Model hash: 151cad8364, Model: silkHentai_v20, VAE hash: 8495cebb2c, VAE: clearvae_v23.safetensors, Clip skip: 2, AnimateDiff: "model: mm_sd15_v3.safetensors, video_length: 16, fps: 8, loop_number: 0, closed_loop: R-P, batch_size: 16, stride: 1, overlap: 4, interp: Off, interp_x: 10, freeinit_enable: False, mm_hash: a8ca0ead, version: v2.0.0.1-a", RP Active: True, RP Divide mode: Matrix, RP Matrix submode: Columns, RP Mask submode: Mask, RP Prompt submode: Prompt, RP Calc Mode: Latent, RP Ratios: "1,1", RP Base Ratios: 0, RP Use Base: False, RP Use Common: False, RP Use Ncommon: False, RP Options: False, RP LoRA Neg Te Ratios: 0, RP LoRA Neg U Ratios: 0, RP threshold: 0.4, RP LoRA Stop Step: 0, RP LoRA Hires Stop Step: 0, RP Flip: False, Lora hashes: "GBlora: 1fc5a18a4715, thickoutline: 0a47fbc0a742, BBlora: bccb0bc9ab8f, q-v1: d2aef6293068", TI hashes: "EasyNegativeV2: 339cc9210f70, bad-hands-5: aa7651be154c", Version: v1.9.0
